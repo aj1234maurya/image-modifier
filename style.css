@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+}
+input {
+  display: none;
+}
+li {
+  display: flex;
+  gap: 20px;
+}
+button {
+  margin-right: 30px;
+  gap: 40px;
+  padding: 10px 5px;
+  font-size: larger;
+  font-weight: 700;
+  border-radius: 10px;
+}
+button img {
+  height: 25px;
+  width: 25px;
+}
+.symbol {
+  padding: 3px 3px;
+}
+.symbol-svg {
+  padding: 7px;
+}
+i {
+  font-size: x-large;
+}
+.boxImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 80vh;
+  width: 100%;
+}
+.uploadedImage {
+  margin-bottom: 2%;
+  height: 90%;
+  padding-top: 6vh;
+  display: flex;
+  justify-content: center;
+}
+.uploadedImage img {
+  height: 400px;
+  width: fit-content;
+}
+.result {
+  margin-bottom: 2%;
+  height: 90%;
+  padding-top: 6vh;
+  display: flex;
+  justify-content: center;
+}
+.result img {
+  height: 400px;
+  width: fit-content;
+}
+.download-btn {
+  margin-top: 2%;
+  position: relative;
+  bottom: 3%;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+a {
+  background-color: gray;
+  text-decoration: none;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 3px;
+  border: 3px solid black;
+  height: fit-content;
+  color: black;
+}
